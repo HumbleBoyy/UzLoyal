@@ -29,7 +29,7 @@ export default function NewsGet() {
                             <th>Title</th>
                             <th>Title</th>
                             <th>Title</th>
-                            <th>Title</th>
+                            <th>iMG</th>
                         </tr>
                         <tr>
                             <td>{item.title_en}</td>
