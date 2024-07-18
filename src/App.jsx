@@ -42,7 +42,7 @@ const App = () => {
           <Route path='/news' element={<News/>}/>
           <Route path='/services' element={<Services/>}/>
           <Route path='/sources' element={<Sources/>}/>
-          <Route path='/' element={<Navigate to='categories' replace />} />
+          <Route path='/' element={<Navigate to='/categories' replace />} />
         </Route>
         <Route path="*" element={<Navigate to="/" />}/>
      </Routes>

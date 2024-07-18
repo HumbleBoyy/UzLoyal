@@ -176,7 +176,7 @@ const deleteData = () => {
               <td className="shadow-sm border border-white-700 ... h-[50px]  w-[40px] rounded-md mt-0 p-1">{service.title_uz}</td>
               <td className="shadow-sm border border-white-700 ... h-[50px]  w-[40px] rounded-md mt-0 p-1">{service.title_uz}</td>
               <td className="shadow-sm border border-white-700 ... h-[50px]  w-[40px] rounded-md mt-0 p-1">{service.title_uz}</td>
-              <td className="shadow-sm border border-white-700 ... h-[100px] w-[40px] rounded-md"><img src={`${urlImg}${service.image_src}`} alt={service.title} className='max-w-full max-h-[200px] rounded-md'/></td>
+              <td className="shadow-sm border border-white-700 ... h-[100px] w-[40px] rounded-md"><img src={`${urlImg}${service.image_src}`} alt={service.title_en} className='max-w-full max-h-[200px] rounded-md'/></td>
               <td className="shadow-sm border border-white-700 ... h-[20px]   w-[10px] rounded-md">
               <button className='bg-blue-600 hover:bg-blue-500 text-white p-3 rounded-md m-2' onClick={()=>handleEditOpen(service.id)}><MdEdit className='text-md' /></button>
               <button className='bg-red-600 hover:bg-red-500 text-white p-3 rounded-md   m-2' onClick={handleShow}><MdDelete  className='text-md'/></button>
