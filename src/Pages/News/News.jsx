@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
+import NewsGet from './NewsGet';
+
 
 const News = () => {
+
+  
   return (
     <div className='h-[100vh] w-[100%] bg-white'>
-    <h1>News</h1>
-  </div>
+      <h1>News</h1>
+     <NewsGet/>
+
+    </div>
   )
 }
 
