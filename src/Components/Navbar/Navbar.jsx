@@ -13,7 +13,7 @@ const Navbar = () => {
     }
   return (
     <nav className='w-full h-[70px] flex items-center justify-end pr-14 bg-slate-200'>
-        <button onClick={e=>{setModal(true)}} className='bg-red-500 text-2xl text-white px-10 py-2 rounded-md font-semibold'>
+        <button onClick={e=>{setModal(true)}} className='bg-red-500 text-2xl text-white px-10 py-2 rounded-md font-semibold mt-6 mb-6'>
          <IoIosLogOut />
         </button>
 
